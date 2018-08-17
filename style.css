@@ -1,0 +1,99 @@
+body {
+  margin:0px;
+  font-family:"raleway";
+ 
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4em;
+    color: rosybrown;
+    text-align: center;
+}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#header {
+
+}
+
+ul {
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 10px 10px -10px  rgb(214, 214, 214) inset;
+}
+
+li {
+    margin-right:2%;
+    float: right;
+}
+
+li a {
+    display: block;
+    
+    color: black;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+}
+
+a{
+
+    color:black;
+}
+
+a:hover {
+    color:rgb(245, 10, 49);
+}
+
+#image {
+text-align:center;
+}
+
+.responsive {
+    max-width: 100%;
+height:auto;
+}
+
+#intro {
+    background-color: rgb(38, 38, 214);
+
+}
+
+.texte-intro {
+    text-align:center;
+    font-size: 15px;
+    margin:auto;
+    padding: 5% 5% 5% 5%;
+    color:white;
+}
+
+.mes-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    color:white;
+}
+
+.mes-flexbox > div {
+    background-color:#2626D6;
+    width: 200px;
+    margin: 30px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+  }
+
